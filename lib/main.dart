@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:lists/database.dart";
+import "package:lists/database/database.dart";
 import "package:lists/pages/home_page.dart";
 
 void main() {

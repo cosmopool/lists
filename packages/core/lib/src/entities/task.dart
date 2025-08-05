@@ -1,6 +1,6 @@
 import "dart:typed_data";
 
-import "package:lists/entities/node.dart";
+import "package:core/src/entities/node.dart";
 
 sealed class Entity {
   Entity({required this.id, this.parentId});

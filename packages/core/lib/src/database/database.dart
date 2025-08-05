@@ -1,4 +1,4 @@
-import "package:lists/entities/task.dart";
+import "package:core/src/entities/task.dart";
 import "package:sqlite3/sqlite3.dart";
 
 typedef _Batch = List<String>;

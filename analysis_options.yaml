@@ -2,7 +2,6 @@ include: package:flutter_lints/flutter.yaml
 linter:
   rules:
     - always_put_required_named_parameters_first
-    # - always_specify_types
     - always_use_package_imports
     - annotate_overrides
     - annotate_redeclares
@@ -40,7 +39,6 @@ linter:
     - depend_on_referenced_packages
     - deprecated_consistency
     - deprecated_member_use_from_same_package
-    # - diagnostic_describe_all_properties
     - directives_ordering
     - discarded_futures
     - do_not_use_environment
@@ -110,7 +108,6 @@ linter:
     - specify_nonobvious_local_variable_types
     - specify_nonobvious_property_types
     - strict_top_level_inference
-    - switch_on_type
     - type_annotate_public_apis
     - unawaited_futures
     - unnecessary_async
@@ -135,7 +132,6 @@ linter:
     - unnecessary_string_interpolations
     - unnecessary_this
     - unnecessary_to_list_in_spreads
-    - unnecessary_unawaited
     - unnecessary_underscores
     - unreachable_from_main
     - unrelated_type_equality_checks
